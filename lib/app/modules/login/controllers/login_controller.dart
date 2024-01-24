@@ -38,8 +38,6 @@ class LoginController extends GetxController {
     super.onClose();
   }
 
-  void increment() => count.value++;
-
   login() async {
     loading(true);
     try {
